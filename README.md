@@ -8,26 +8,29 @@
 
 # EndPoints:
 
-#### //USERS  
-GET /api/users/  
-POST /api/users/  
-PUT /api/users/{id}  
-DELETE /api/users/{id}  
+#### USERS  
+GET /api/users/  Runs ok 
+POST /api/users/  Runs ok 
+PUT /api/users/{id}  Runs ok 
+DELETE /api/users/{id}  Pending
 
-#### //GAMES  
-GET /api/games/  :OK:  
-POST /api/games/  
-PUT /api/games/{id}  
-DELETE /api/games/{id}  
+#### GAMES  
+GET /api/games/  Runs ok 
+POST /api/games/  Runs ok 
+PUT /api/games/{id}  Runs ok 
+DELETE /api/games/{id}  Pending
 
-#### //PARTIES
-GET /api/parties/  
-POST /api/parties/  
-PUT /api/parties/{id}  
-DELETE /api/parties/{id}  
+#### PARTIES
+GET /api/parties/  Runs ok 
+POST /api/parties/  Runs ok 
+PUT /api/parties/{id}  Runs ok 
+DELETE /api/parties/{id}  Pending
 
-#### //MESSAGES
-GET /api/messages/  
-POST /api/messages/  
-PUT /api/messages/{id}  
-DELETE /api/messages/{id}
+#### MESSAGES
+GET /api/messages/  Runs ok 
+POST /api/messages/  Runs ok
+PUT /api/messages/{id}  Runs ok 
+DELETE /api/messages/{id} Pending
+
+# PostMan Collection:
+https://www.postman.com/eilmadc/workspace/eilmadc-ws/collection/17239322-25b58aed-1666-4e96-9a43-fe870f6f9a9f?action=share&creator=17239322
