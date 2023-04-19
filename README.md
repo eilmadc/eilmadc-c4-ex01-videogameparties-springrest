@@ -8,20 +8,26 @@
 
 # EndPoints:
 
-//USERS  
+#### //USERS  
 GET /api/users/  
 POST /api/users/  
 PUT /api/users/{id}  
 DELETE /api/users/{id}  
 
-//GAMES  
-GET /api/games/  
+#### //GAMES  
+GET /api/games/  :OK:  
 POST /api/games/  
 PUT /api/games/{id}  
 DELETE /api/games/{id}  
 
-//PARTIES
+#### //PARTIES
 GET /api/parties/  
-POST /api//  
-PUT /api/users/{id}  
-DELETE /api/users/{id}  
+POST /api/parties/  
+PUT /api/parties/{id}  
+DELETE /api/parties/{id}  
+
+#### //MESSAGES
+GET /api/messages/  
+POST /api/messages/  
+PUT /api/messages/{id}  
+DELETE /api/messages/{id}
