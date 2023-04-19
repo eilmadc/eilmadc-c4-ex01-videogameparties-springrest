@@ -52,8 +52,8 @@ public class Message {
 	/**
 	 * @param id
 	 * @param message
-	 * @param party_id
-	 * @param user_id
+	 * @param party
+	 * @param user
 	 * @param date
 	 */
 	public Message(Long id, String message, Party party, User user, Date date ) {
@@ -135,6 +135,13 @@ public class Message {
 	 */
 	public void setDate(Date date) {
 		this.date = date;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Message [id=" + id + ", message=" + message + ", date=" + date + ", user=" + user + ", party=" + party
+				+ "]";
 	}
 	
 	
